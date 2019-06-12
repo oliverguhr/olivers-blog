@@ -3,25 +3,23 @@ layout: default
 title: Home
 ---
 
-<div class="home">
-  <div class="post-list">
-
     {% for post in site.posts limit:5%}
 
-    <article class="post_card post">
+    <article class="box">
+      <img src="https://oliverguhr.github.io/flexblog/1.jpg" class="halfWidth">
       <header class="post_header">
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
         <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
       </header>
-      <div class="post_excerpt">
+      <div class="content">
         <p>
           {% if post.description %}
           {{ post.description}}
           {% else %}
           {{ post.excerpt }}
-          {% endif %} 
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
+          {% endif %}           
         </p> 
+        <a class="button" href="{{ post.url | prepend: site.baseurl }}">Read Full Post</a>          
       </div>
       <footer class="post_meta">
 
@@ -52,11 +50,10 @@ title: Home
         <!--p class="readmore">
           <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
         </p-->
-      </footer>
-      <hr/>
+      </footer>      
     </article>
     {% endfor %}
-
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
-  </div>
-</div>
+    
+    <article class="box">
+    <a class="button" style="width:100%" href="./archive"> Archive &gt;  </a>
+    </article>

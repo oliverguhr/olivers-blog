@@ -1,0 +1,205 @@
+.wrapper {	
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper>* {
+    padding: 1px;
+    flex: 1 100%;
+}
+
+header {
+    padding: 0px;
+}
+
+.footer {
+    background: white;
+    border-top: 1px solid #eee;
+}
+
+.background {   
+    background:white;
+}
+
+.main {
+    text-align: left;
+    padding: 20px 0px 0px 0px;
+}
+
+.aside-1 {}
+
+.aside-2 {}
+
+@media (min-width: 1000px) {
+    .halfWidth {
+        width: 50%;
+        float: left;
+        margin-right: 2em;
+    }
+}
+
+@media (max-width: 1000px) {
+    .halfWidth {
+        width: 100%;
+        float: none;
+        margin-right: 0em;
+    }		
+}
+
+@media (max-width: 600px) {
+    body{
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 1 auto;
+    }	
+    body{
+        font-size: 22px;
+    }
+}
+
+@media all and (min-width: 1025px) {
+    .main {
+        flex: 3 0px;
+    }
+    .aside-1 {
+        order: 1;
+    }
+    .main {
+        order: 2;
+    }
+    .aside-2 {
+        order: 3;
+    }
+    .footer {
+        order: 4;
+    }
+}
+
+body {
+    padding: 0em;
+    margin: 0em;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.42857143;		
+}
+
+.logo {
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: uppercase;		
+    margin: 0;
+    line-height: 120px;
+}    
+.logo > a{
+    color:#333;
+}
+
+.text {		
+    line-height: 36px;
+}
+
+blockquote {                
+    line-height: 36px;
+    border-left: solid 4px #3DA7FF;
+    margin: 0px;
+    padding: 10px 0px 10px 30px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0px 8px 5px -8px rgba(0, 0, 0, 0.03);    
+    overflow: hidden;
+    margin-bottom: 3em;
+}
+
+.box .content {
+    margin: 20px;
+}
+
+.box header h2 {
+    margin-top: 0px;
+    margin-bottom: 0.25em;        
+}
+.box header a {
+    color: #333;
+}
+.box header time {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 17px;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    background-color: black;
+    text-transform: uppercase;
+    border-radius: 0px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    transform: rotateX(180deg);
+}
+
+a {
+    text-decoration: none;
+    color: #3DA7FF;
+}
+
+nav {
+    border-top: 1px solid #eee;
+    text-transform: uppercase;
+}
+
+nav .navigation li {
+    padding-right: 3em;
+}
+
+nav a {
+    color: #333;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #ddd
+}
+
+.navigation {
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline;
+    padding-right: 1em;
+}

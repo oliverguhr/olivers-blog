@@ -1,11 +1,18 @@
 ---
 layout: page
-title: About
+title: About Oliver
 permalink: /about/
 ---
 
-This is a simple Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/).  Plus, you can find a lot of themes at [jekyllthemes.org](http://jekyllthemes.org/)
+  <p>
+  <img style="float:left; width: 10em; margin-right: 1.5em; margin-bottom: 0.5em" src="{{site.baseurl}}/assets/img/oli.jpg" />
+       Oliver received a bachelor degree in <a href="https://en.wikipedia.org/wiki/Business_informatics"> business informatics</a> in 2014 (HfT Leipzig) and holds a master degree in computer science since 2018 (HTW Dresden). From 2007 to 2018 he was working as a software engineer in the sector of information and communication technology. In 2018 he became a research fellow at the HTW Dresden in the department of artificial intelligence.<br/><br/>
+His research focuses on Spoken Dialogue Systems, Machine Learning, and Natural Language Processing. He also teaches the Natural Language Processing part of the Deep Learning course at HTW Dresden. 
+  </p>
 
-You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-simple](https://github.com/wild-flame/jekyll-simple)
+## Accounts
 
-You can find the source code for Jekyll at <data data-icon="ei-sc-github"></data>  [jekyll](https://github.com/jekyll/jekyll)
+* GitHub [oliverguhr](http://github.com/oliverguhr/)
+* Twitter [@oliverguhr](http://twitter.com/oliverguhr/)
+* LinkedIn [Oliver Guhr](https://www.linkedin.com/in/oliver-guhr-4988a3167/)
+* Instagram [oliverguhr](http://instagram.com/oliverguhr/)

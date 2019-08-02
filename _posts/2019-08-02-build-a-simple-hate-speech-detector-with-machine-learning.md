@@ -7,7 +7,7 @@ categories: nlp
 image: "/assets/posts/post-no-hate.jpg"
 ---
 
-Not everybody on the internet behaves nice and some comments are just rude or offending. If you running a web page that offers a public comment function that can be a real problem. For example in Germany, you are legally required to delete hate speech comments. This can be challenging if you have to check thousands of comments each day. 
+Not everybody on the internet behaves nice and some comments are just rude or offending. If you run a web page that offers a public comment function that can be a real problem. For example in Germany, you are legally required to delete hate speech comments. This can be challenging if you have to check thousands of comments each day. 
 So wouldn't it be nice, if you can automatically check the user's comment and give them a little hint to stay nice?
 <!--description-->
 

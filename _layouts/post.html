@@ -2,14 +2,17 @@
 layout: default
 ---
 <article class="box content" itemscope itemtype="http://schema.org/BlogPosting">
+  
+  {% if page.image %}  
+        <img src="{{page.image}}" class="twoThridsWidthCenter">
+  {% endif %}
 
-  <img src="https://oliverguhr.github.io/flexblog/1.jpg" class="fullWidth">
   <header class="artilce_header">
     <h1 class="artilce_title" itemprop="name headline">{{ page.title }}</h1>
     <p class="artilce_meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
-  <div itemprop="articleBody">
+  <div itemprop="articleBody">  
     {{ page.content }}
   </div>
 

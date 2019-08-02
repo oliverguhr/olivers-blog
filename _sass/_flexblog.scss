@@ -145,6 +145,12 @@ h2 {
 .fullWidth {
     width: 100%;
 }
+.twoThridsWidthCenter {
+    width: 66%;
+    margin: auto;
+    float: none;
+    display: block;
+}
 
 .button {
     display: inline-block;

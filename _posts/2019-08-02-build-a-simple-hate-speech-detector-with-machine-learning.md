@@ -7,7 +7,7 @@ categories: nlp
 image: "/assets/posts/post-no-hate.jpg"
 ---
 
-Not everybody on the internet behaves nice and some comments are just rude or offending. If you run a web page that offers a public comment function that can be a real problem. For example in Germany, you are legally required to delete hate speech comments. This can be challenging if you have to check thousands of comments each day. 
+Not everybody on the internet behaves nice and some comments are just rude or offending. If you run a web page that offers a public comment function hate speech can be a real problem. For example in Germany, you are legally required to delete hate speech comments. This can be challenging if you have to check thousands of comments each day. 
 So wouldn't it be nice, if you can automatically check the user's comment and give them a little hint to stay nice?
 <!--description-->
 
@@ -15,15 +15,13 @@ The simplest thing you could do is to check if the user's text contains offensiv
 
 This post will show you how to train a machine learning model that can detect if a comment or text is offensive. And to start you need just a few lines of Python code \o/
 
-
 ## The Data
 
 At first, you need data. In this case, you will need a list of offensive and nonoffensive texts. I wrote this tutorial for a machine learning course in Germany, so I used german texts but you should be able to use other languages too.
 
-For a machine learning competition, scientists provided a list of comments labeled as offensive and nonoffensive ([Germeval 2018, Subtask 1](https://projects.fzai.h-da.de/iggsa/projekt/)). This is perfect for us since we just can use this data. 
+For a machine learning competition, scientists provided a list of comments labeled as offensive and nonoffensive ([Germeval 2018, Subtask 1](https://projects.fzai.h-da.de/iggsa/projekt/)). This is perfect for us since we just can use this data.
 
-
-## The Code 
+## The Code
 
 To tackle this task I would first establish a baseline and then improve this solution step by step. Luckily they also published the scores of all submission, so we can get a sense of how well we are doing.
 

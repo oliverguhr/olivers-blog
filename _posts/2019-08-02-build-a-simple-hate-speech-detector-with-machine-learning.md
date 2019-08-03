@@ -17,7 +17,7 @@ This post will show you how to train a machine learning model that can detect if
 
 ## The Data
 
-At first, you need data. In this case, you will need a list of offensive and nonoffensive texts. I wrote this tutorial for a machine learning course in Germany, so I used german texts but you should be able to use other languages too.
+At first, you need data. In this case, you will need a list of offensive and nonoffensive texts. I wrote this tutorial for a machine learning course in Germany, so I used German texts but you should be able to use other languages too.
 
 For a machine learning competition, scientists provided a list of comments labeled as offensive and nonoffensive ([Germeval 2018, Subtask 1](https://projects.fzai.h-da.de/iggsa/projekt/)). This is perfect for us since we just can use this data.
 
@@ -55,7 +55,7 @@ I packed all the training parameters into a seperate dictionary. To me that look
 
 ### 3. Test your Model
 
-After we trained the model it is time to test how it performs. FastText provides us a handy test method the evaluate the model's performance. To compare our model with the other models from the GermEval contest I also added a lambda which calculates the average [F1 score](https://en.wikipedia.org/wiki/F1_score). For now, I did not use the official test script from the contests repository. Which you should do if you wanted to attend to such contests.
+After we trained the model it is time to test how it performs. FastText provides us a handy test method the evaluate the model's performance. To compare our model with the other models from the GermEval contest I also added a lambda which calculates the average [F1 score](https://en.wikipedia.org/wiki/F1_score). For now, I did not use the official test script from the contests repository. Which you should do if you wanted to participate in such contests.
 
 ```python
 def test(model):
@@ -80,12 +80,11 @@ Looking at the [results](https://github.com/uds-lsv/GermEval-2018-Data/blob/mast
 
 This is pretty good since the models for these contests are usually specially optimized for the given data.
 
-FastText is a clever piece of software, that uses some neat tricks. If interested in fastText you should take a look the [paper](https://arxiv.org/abs/1607.04606) and [this one](https://arxiv.org/abs/1607.01759). For example, fastText uses character n-grams. This approach is well suited for the german language, which uses a lot of compound words.
+FastText is a clever piece of software, that uses some neat tricks. If interested in fastText you should take a look the [paper](https://arxiv.org/abs/1607.04606) and [this one](https://arxiv.org/abs/1607.01759). For example, fastText uses character n-grams. This approach is well suited for the German language, which uses a lot of compound words.
 
 ## Next Steps
 
-In this very basic tutorial, we trained a model with just a few lines of Python code. Their several things you can do to improve this model.
-The first step would be to preprocess your data. During preprocessing you could lower case all texts, remove URLs and special characters, correct spelling, etc. After every optimization step, you can test your model and check if your scores went up. Happy hacking :) 
+In this very basic tutorial, we trained a model with just a few lines of Python code. There are several things you can do to improve this model. The first step would be to preprocess your data. During preprocessing you could lower case all texts, remove URLs and special characters, correct spelling, etc. After every optimization step, you can test your model and check if your scores went up. Happy hacking :) 
 
 Some Ideas:
 

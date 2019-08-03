@@ -48,7 +48,7 @@ header {
         margin-right: 0em;
     }		
     .main {
-        padding: 2em 0.5em 0em 0.5em;              
+        padding: 0em 0.5em 0em 0.5em;              
     }        
 }
 
@@ -70,7 +70,7 @@ header {
 @media all and (min-width: 1025px) {
     .main {
         flex: 3 0px;
-        padding: 2em 0em 0em 0em;          
+        padding: 1em 0em 0em 0em;          
     }
     .logo{
         font-size: 3em;
@@ -197,7 +197,8 @@ nav .navigation li {
 nav a {
     color: #333;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 nav a:hover {

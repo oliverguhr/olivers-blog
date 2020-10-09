@@ -10,6 +10,15 @@ permalink: /about/
 His research focuses on Spoken Dialogue Systems, Machine Learning, and Natural Language Processing. He also teaches the Natural Language Processing part of the Deep Learning course at HTW Dresden. 
   </p>
 
+## Conferences and Workshops
+
+* 2020 [ECML-PKDD: Teaching Machine Learning Workshop](https://teaching-ml.github.io/2020/) (Session  Chair)
+* 2019  [Summer School on Voice Interaction and Voice Assistants in Health Care](https://tu-dresden.de/ing/informatik/ai/mci/studium/summer-school-on-voice-interaction-and-voice-assistants) (funding, organisation,lecturing)
+* 2019 [Deep Learning Hackathon - d3hack](https://indico.mpi-cbg.de/event/186/) (Mentor for Deep NLP)
+* 2019 [Mobile Camp Dresden](https://mobilecamp.de/) (organisation)
+* 2015-2018 [DevDay](https://www.devday.de/) (organisation)
+
+
 ## Accounts
 
 * GitHub [oliverguhr](http://github.com/oliverguhr/)

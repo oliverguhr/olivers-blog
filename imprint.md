@@ -10,7 +10,7 @@ The information on the blog is not guaranteed to be accurate. It's just a privat
 ## Contact
 
 Oliver Guhr  <br />
-Löwenstraße 6a <br />
+Königsbrücker Straße 41 <br />
 01099 Dresden <br />
 
 ## Privacy notes (TL;DR-version):

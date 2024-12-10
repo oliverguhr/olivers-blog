@@ -6,8 +6,12 @@ permalink: /about/
 
   <p>
   <img style="float:left; width: 10em; margin-right: 1.5em; margin-bottom: 0.5em" src="{{site.baseurl}}/assets/img/oliver-guhr.jpg" />
-       Oliver received a bachelor degree in <a href="https://en.wikipedia.org/wiki/Business_informatics"> business informatics</a> in 2014 (HfT Leipzig) and holds a master degree in computer science since 2018 (HTW Dresden). From 2007 to 2018 he was working as a software engineer in the sector of information and communication technology. In 2018 he became a research fellow at the HTW Dresden in the department of artificial intelligence.<br/><br/>
-His research focuses on Spoken Dialogue Systems, Machine Learning, and Natural Language Processing. He also teaches the Natural Language Processing part of the Deep Learning course at HTW Dresden. 
+       I am Co-Founder of [Impact Labs GmbH](https://www.impact-labs.ai), where we are developing the next generation of voice interfaces. With my passion for IT and AI, I work on improving the interaction between humans and machines.
+[For my PhD](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa2-938255) in Artificial Intelligence at the Technical University of Dresden I developed a voice interface for robots in care applications.  As a software developer as well as a scientist, I have profound experience in software architecture and enjoy combining both fields.
+
+In 2024, I was recognized as [Microsoft Most Valuable Professional (MVP) for Azure AI Services](https://mvp.microsoft.com/de-DE/mvp/profile/9241829a-1de0-473f-85f6-1029db3cedb4) and am actively involved in the AI community.
+
+I look forward to exchanging ideas with you, developing new ideas and creating solutions that make a real difference.
   </p>
 
 ## Conferences and Workshops

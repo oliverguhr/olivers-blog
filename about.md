@@ -8,10 +8,10 @@ permalink: /about/
   <img style="float:left; width: 10em; margin-right: 1.5em; margin-bottom: 0.5em" src="{{site.baseurl}}/assets/img/oliver-guhr.jpg" />
 
 I am Co-Founder of <a href="https://www.impact-labs.ai">Impact Labs GmbH</a>, where we are developing the next generation of voice interfaces. With my passion for IT and AI, I work on improving the interaction between humans and machines.
+<br/>
+For <a href="https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa2-938255"> my PhD in Artificial Intelligence</a> at the Technical University of Dresden I developed a voice interface for robots in care applications. As a software developer as well as a scientist, I have profound experience in software architecture and enjoy combining both fields.<br/>
 
-For <a href="https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa2-938255"> my PhD in Artificial Intelligence</a> at the Technical University of Dresden I developed a voice interface for robots in care applications. As a software developer as well as a scientist, I have profound experience in software architecture and enjoy combining both fields.
-
-In 2024, I was recognized as <a href="https://mvp.microsoft.com/de-DE/mvp/profile/9241829a-1de0-473f-85f6-1029db3cedb4">Microsoft Most Valuable Professional (MVP) for Azure AI Services</a> and am actively involved in the AI community.
+In 2024, I was recognized as <a href="https://mvp.microsoft.com/de-DE/mvp/profile/9241829a-1de0-473f-85f6-1029db3cedb4">Microsoft Most Valuable Professional (MVP) for Azure AI Services</a> and am actively involved in the AI community.<br/>
 
 I look forward to exchanging ideas with you, developing new ideas and creating solutions that make a real difference.
   </p>

@@ -6,7 +6,8 @@ permalink: /about/
 
   <p>
   <img style="float:left; width: 10em; margin-right: 1.5em; margin-bottom: 0.5em" src="{{site.baseurl}}/assets/img/oliver-guhr.jpg" />
-  I am Co-Founder of [Impact Labs GmbH](https://www.impact-labs.ai) , where we are developing the next generation of voice interfaces. With my passion for IT and AI, I work on improving the interaction between humans and machines.
+
+I am Co-Founder of [Impact Labs GmbH](https://www.impact-labs.ai) , where we are developing the next generation of voice interfaces. With my passion for IT and AI, I work on improving the interaction between humans and machines.
     
 [For my PhD](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa2-938255) in Artificial Intelligence at the Technical University of Dresden I developed a voice interface for robots in care applications.  As a software developer as well as a scientist, I have profound experience in software architecture and enjoy combining both fields.
 
